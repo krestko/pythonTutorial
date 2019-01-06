@@ -31,3 +31,16 @@ print("%c is my %s letter and the number %d is my favorite number." % (character
 print(long_string.capitalize())
 #return first index of a specified character
 print(long_string.find('g'))
+#check to see if all characters in a string are letters
+print(long_string.isalpha())
+#check to see if all characters in a string are numbers
+print(long_string.isalnum())
+#find the length of string
+print(len(long_string))
+#replace specified characters in a string
+print(long_string.replace('groundhog', 'dog eat dog'))
+#remove white space
+print(long_string.strip())
+#splite a string into a list
+word_list = long_string.split(' ')
+print(word_list)
