@@ -38,3 +38,6 @@ print(len(to_do_list2))
 print(max(to_do_list2))
 #will find the smallest value
 print(min(to_do_list2))
+#make copy of a list
+to_do_list3 = list(to_do_list2)
+print(to_do_list3)
